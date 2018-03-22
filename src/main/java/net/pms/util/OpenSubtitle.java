@@ -298,7 +298,7 @@ public class OpenSubtitle {
 				LOGGER.debug("Trying to log in to OpenSubtitles");
 			}
 
-			Credential credentials = PMS.getCred("opensubtitles");
+			Credential credentials = PMS.getCred("opensubtitles", null);
 			String pword = "";
 			String username = "";
 			if (credentials != null) {
