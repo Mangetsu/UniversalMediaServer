@@ -88,7 +88,7 @@ import org.apache.commons.text.similarity.JaroWinklerDistance;
 public class OpenSubtitle {
 	private static final Logger LOGGER = LoggerFactory.getLogger(OpenSubtitle.class);
 	private static final String SUB_DIR = "subs";
-	private static final String UA = "Digital Media Server v1";
+	private static final String UA = "Universal Media Server v1";
 	private static final long TOKEN_EXPIRATION_TIME = 10 * 60 * 1000; // 10 minutes
 
 	/** The minimum Jaro–Winkler title distance for IMDB guesses to be valid */
